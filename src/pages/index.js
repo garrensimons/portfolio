@@ -591,7 +591,7 @@ export default (() => {
 					empty-border-color="LightGray"
 					width="25%"
 				>
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1535361109-b8fa03822e9d?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/69891a2bd788530023e4412f/images/images.jpg?v=2026-02-08T23:51:06.276Z) 50% 0/cover no-repeat" />
 					<Text as="h3" font="--base" margin="5px 0 0px 0" color="--lightD1">
 						Town & Country
 					</Text>

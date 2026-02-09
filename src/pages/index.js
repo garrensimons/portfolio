@@ -24,7 +24,7 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60da14fa3f4eb1001ea27689/images/270x270.png?v=2021-10-07T09:34:41.365Z"} />
 			<meta name={"msapplication-TileColor"} content={"#04080C"} />
 		</Helmet>
-		<Section padding="40px 0 40px 0" quarkly-title="Header">
+		<Section padding="40px 0 40px 0" quarkly-title="Header" background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box">
 			<Override
 				slot="SectionContent"
 				flex-direction="row"
@@ -59,6 +59,7 @@ export default (() => {
 				empty-border-color="LightGray"
 				width="70%"
 				lg-width="50%"
+				background="#de1616"
 			>
 				<Components.QuarklycommunityKitMobileSidePanel>
 					<Override slot="Content" justify-content="flex-end" background="--color-dark" padding="0px 0px 0px 0px" />
@@ -70,6 +71,8 @@ export default (() => {
 						justify-content="flex-end"
 						align-items="center"
 						md-flex-direction="column"
+						border-color="rgba(0, 0, 0, 0)"
+						opacity="1"
 					>
 						<Link
 							color="--lightD1"

@@ -4,7 +4,6 @@ import { Theme, Link, Text, Box, Section, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
-import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -24,14 +23,19 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60da14fa3f4eb1001ea27689/images/270x270.png?v=2021-10-07T09:34:41.365Z"} />
 			<meta name={"msapplication-TileColor"} content={"#04080C"} />
 		</Helmet>
-		<Section padding="40px 0 40px 0" quarkly-title="Header" background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box">
-			<Override
-				slot="SectionContent"
-				flex-direction="row"
-				align-items="center"
-				display="flex"
-				justify-content="space-between"
-			/>
+		<Section
+			quarkly-title="Header"
+			min-width="8px"
+			min-height="8px"
+			width="1780px"
+			height="150.792px"
+			background="#ffffff"
+			margin="0 0 0 0px"
+			inner-width="default"
+			padding="px px 24px px"
+			position="fixed"
+		>
+			<Override slot="SectionContent" align-items="center" justify-content="space-between" position="fixed" />
 			<Box
 				empty-border-color="LightGray"
 				width="30%"
@@ -44,48 +48,87 @@ export default (() => {
 				empty-min-width="64px"
 				empty-border-width="1px"
 			>
-				<Text color="--light" margin="0px 0px 0px 0px" font="--headline3">
+				<Text color="--dark" margin="0px 0px 0px 0px" font="normal 400 40px/1.5 georgia" flex="0 1 auto">
 					Garren Simons
 				</Text>
 			</Box>
-			<Box
-				sm-width="30%"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-style="solid"
-				display="flex"
-				align-items="center"
-				empty-border-width="1px"
-				empty-border-color="LightGray"
-				width="70%"
-				lg-width="50%"
-				background="#de1616"
-			>
-				<Components.QuarklycommunityKitMobileSidePanel>
-					<Override slot="Content" justify-content="flex-end" background="--color-dark" padding="0px 0px 0px 0px" />
-					<Override slot="Button Text" md-color="--light" md-font="--base" md-text-transform="uppercase" />
-					<Override slot="Button Icon" md-color="--light" />
-					<Box
-						md-padding="20px 0px 20px 0px"
-						display="flex"
-						justify-content="flex-end"
-						align-items="center"
-						md-flex-direction="column"
-						border-color="rgba(0, 0, 0, 0)"
-						opacity="1"
-					>
-						<Link
-							color="--lightD1"
-							font="--base"
-							margin="0px 0px 0px 20px"
-							md-margin="20px 0px 0px 0px"
-							href="https://www.instagram.com/short._.squid/"
-							text-decoration-line="initial"
-						>
-							Instagram
-						</Link>
+		</Section>
+		<Section
+			padding="140px 0 140px 0"
+			sm-padding="40px 0 40px 0"
+			background="linear-gradient(0deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,.2) 100%),--color-dark url(https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18:37:03.591Z) 50% 55%/cover"
+			color="--light"
+			font="--base"
+		>
+			<Override slot="SectionContent" sm-align-items="center" />
+			<Box width="100%">
+				<Text
+					as="h1"
+					margin="0 0 96px 0"
+					text-align="center"
+					letter-spacing="50px"
+					font="100 132px/1.2 --fontFamily-sans"
+					lg-font="200 42px/1.2 --fontFamily-sans"
+					lg-letter-spacing="20px"
+				>
+					Mary
+					<br />
+					Cornell
+				</Text>
+			</Box>
+			<Box display="flex" margin="-16px -16px -16px -16px" flex-wrap="wrap" width="100%">
+				<Box
+					display="flex"
+					padding="16px 16px 16px 16px"
+					width="25%"
+					lg-width="50%"
+					sm-width="100%"
+				>
+					<Box display="flex" font="--lead">
+						<Text margin="0px">
+							About me
+						</Text>
 					</Box>
-				</Components.QuarklycommunityKitMobileSidePanel>
+				</Box>
+				<Box
+					display="flex"
+					padding="16px 16px 16px 16px"
+					width="25%"
+					lg-width="50%"
+					sm-width="100%"
+				>
+					<Box display="flex">
+						<Text margin="0px">
+							My name is Mary Cornell, born and raised in France.
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					display="flex"
+					padding="16px 16px 16px 16px"
+					width="25%"
+					lg-width="50%"
+					sm-width="100%"
+				>
+					<Box display="flex">
+						<Text margin="0px">
+							I've been working as a professional photographer and videographer for more than 12 years.
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					display="flex"
+					padding="16px 16px 16px 16px"
+					width="25%"
+					lg-width="50%"
+					sm-width="100%"
+				>
+					<Box display="flex">
+						<Text margin="0px">
+							CDS Documentary Essay Prize and Best Photographer of The Year 2019 by Sony World Photography Awards.
+						</Text>
+					</Box>
+				</Box>
 			</Box>
 		</Section>
 		<Section padding="50px 0 100px 0">
@@ -642,6 +685,10 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Box min-width="100px" min-height="100px" />
+		<Text margin="0px 0px 0px 0px">
+			Some text
+		</Text>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

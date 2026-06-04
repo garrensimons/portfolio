@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section, Hr } from "@quarkly/widgets";
+import { Theme, Link, Button, Box, Section, Text, Hr, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -34,6 +35,10 @@ export default (() => {
 			inner-width="default"
 			padding="px px 24px px"
 			position="fixed"
+			bottom="auto"
+			left="auto"
+			right="0px"
+			top="0px"
 		>
 			<Override slot="SectionContent" align-items="center" justify-content="space-between" position="fixed" />
 			<Box
@@ -48,9 +53,72 @@ export default (() => {
 				empty-min-width="64px"
 				empty-border-width="1px"
 			>
-				<Text color="--dark" margin="0px 0px 0px 0px" font="normal 400 40px/1.5 georgia" flex="0 1 auto">
-					Garren Simons
-				</Text>
+				<Components.HelloIAmDude
+					width="309.4220822482639px"
+					position="fixed"
+					top="34px"
+					bottom="auto"
+					height="65.06595555555556px"
+					left="590px"
+					right="auto"
+				>
+					Artist Statement
+				</Components.HelloIAmDude>
+				<Link href="#" color="#000000">
+					Some text
+				</Link>
+				<Components.HelloIAmDude
+					width="117.09639105902778px"
+					position="fixed"
+					top="36px"
+					bottom="2989.7284733072916px"
+					height="63.606526692708336px"
+					left="459.385px"
+					right="703.5186089409722px"
+				>
+					About
+				</Components.HelloIAmDude>
+				<Button>
+					Button
+				</Button>
+				<Components.HelloIAmDude
+					width="286.46541731770833px"
+					position="fixed"
+					top="38px"
+					bottom="auto"
+					height="58.812533333333334px"
+					left="auto"
+					right="77px"
+				>
+					Works
+				</Components.HelloIAmDude>
+				<Components.HelloIAmDude
+					width="284.2070434056332px"
+					position="fixed"
+					top="34.2708px"
+					bottom="3163.3340618575244px"
+					height="62.385938142475325px"
+					left="12.0176px"
+					right="1479.7719565943667px"
+				/>
+				<Components.HelloIAmDude
+					width="284.2070434056332px"
+					position="fixed"
+					top="334px"
+					bottom="auto"
+					height="62.385938142475325px"
+					left="330px"
+					right="auto"
+				/>
+				<Components.HelloIAmDude
+					width="284.2070434056332px"
+					position="fixed"
+					top="34.2708px"
+					bottom="3163.3340618575244px"
+					height="62.385938142475325px"
+					left="12.0176px"
+					right="1479.7719565943667px"
+				/>
 			</Box>
 		</Section>
 		<Section
@@ -61,7 +129,7 @@ export default (() => {
 			font="--base"
 		>
 			<Override slot="SectionContent" sm-align-items="center" />
-			<Box width="100%">
+			<Box width="100%" height="280px">
 				<Text
 					as="h1"
 					margin="0 0 96px 0"
@@ -71,9 +139,7 @@ export default (() => {
 					lg-font="200 42px/1.2 --fontFamily-sans"
 					lg-letter-spacing="20px"
 				>
-					Mary
 					<br />
-					Cornell
 				</Text>
 			</Box>
 			<Box display="flex" margin="-16px -16px -16px -16px" flex-wrap="wrap" width="100%">
@@ -141,6 +207,9 @@ export default (() => {
 				flex-wrap="wrap"
 				sm-flex-direction="column"
 				empty-min-width="64px"
+				width="800px"
+				order="-1"
+				align-self="flex-end"
 			>
 				<Box
 					display="flex"
@@ -191,300 +260,117 @@ export default (() => {
 						md-font="500 20px/1.3 --fontFamily-googleInter"
 						sm-width="100%"
 						font="--headline4"
+						order="1"
+						padding="0px 0px 0px 150px"
 					>
-						You can find my works in The New York Times Style Section, Vogue US, Allure, New York Magazine, The Cut, CNN Style, Document Journal, Glamour, Departures, Harper's Bazaar, Fashionista, InStyle, AnOther magazine, i-D magazine, Marie Claire, Glamour, Town & Country, and more.{"\n"}
+						"Untitled"
+						<br />
+						Medium: Ceramic{" "}
+						<br />
+						Size: 11 x 7
+						<Span
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							{" "}
+						</Span>
+						in
+						<br />
+						Date: 2026
 					</Text>
 				</Box>
 			</Box>
-			<Box
-				display="flex"
-				margin="86px 0px 0px 0px"
-				sm-flex-direction="column"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-color="LightGray"
-				sm-margin="32px 0px 0px 0px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-				flex-wrap="wrap"
-			>
-				<Box
-					empty-border-width="1px"
-					empty-border-color="LightGray"
-					sm-width="100%"
-					sm-justify-content="flex-start"
-					sm-padding="0px 0px 16px 0px"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-style="solid"
-					display="flex"
-					width="20%"
-				>
-					<Text margin="0px 0px 0px 0px" font="normal 300 18px/1.5 --fontFamily-googleInter" color="--light">
-						(02 - 04)
-					</Text>
-				</Box>
-				<Box
-					empty-border-color="LightGray"
-					display="flex"
-					width="20%"
-					sm-padding="0px 0px 16px 0px"
-					empty-min-width="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					justify-content="center"
-					sm-width="100%"
-					sm-justify-content="flex-start"
-					empty-min-height="64px"
-				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
-						Work
-					</Text>
-				</Box>
-				<Box
-					empty-border-color="LightGray"
-					display="flex"
-					sm-width="100%"
-					sm-justify-content="flex-start"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					width="60%"
-					sm-padding="0px 0px 16px 0px"
-					empty-min-width="64px"
-					empty-border-style="solid"
-				>
-					<Text font="--headline4" color="--lightD1" margin="0px 0px 0px 0px" md-font="500 20px/1.3 --fontFamily-googleInter">
-						As for consulting, I run my own company that specializes in content marketing, copywriting, creative direction, and so on. We work with such world-known brands and agencies as Estee Lauder, Nordstrom, Longchamp, Whistles, Ralph Lauren, Hilton, Barclays, etc. I help brands convey and fulfill their ideas.{"\n"}
-					</Text>
-				</Box>
-			</Box>
+			<Image
+				src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18:37:03.595Z"
+				display="block"
+				width="425.54555555555555px"
+				height="604.271px"
+				position="fixed"
+				bottom="auto"
+				left="406px"
+				right="auto"
+				top="677px"
+				srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
+			<Image
+				src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18:37:03.597Z"
+				display="block"
+				width="380px"
+				height="600px"
+				align-self="flex-start"
+				position="absolute"
+				bottom="auto"
+				left="17px"
+				right="auto"
+				top="680px"
+				srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
 		</Section>
 		<Section padding="50px 0 100px 0">
-			<Box
-				flex-wrap="wrap"
-				margin="0px 0px 46px 0px"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-			>
-				<Box
-					display="flex"
-					width="35%"
-					sm-width="20%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
+			<Box min-width="100px" min-height="100px" height="900px">
+				<Text
+					margin="450px 0px 0px 840px"
+					width="300px"
+					height="200px"
+					position="relative"
+					color="#ffffff"
+					font="26px sans-serif"
+					padding="0px 0px 0px 00px"
 				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
-						01
-					</Text>
-				</Box>
-				<Box
-					width="65%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-				>
-					<Text
-						font="--headline1"
-						color="--lightD1"
-						margin="0px 0px 0px 0px"
-						width="100%"
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
 					>
-						Fashion
-					</Text>
-				</Box>
+						"The Iconic"
+						<br />
+						Medium: Ceramic
+						<br />
+						Size
+						<br />
+						Date 2026
+					</Span>
+				</Text>
 			</Box>
-			<Box
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-				flex-wrap="wrap"
-				margin="0px 0px 46px 0px"
-			>
-				<Box
-					sm-width="20%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="35%"
-				>
-					<Text color="--light" margin="0px 0px 0px 0px" font="normal 600 18px/1.5 --fontFamily-googleInter">
-						02
-					</Text>
-				</Box>
-				<Box
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="65%"
-				>
-					<Text
-						color="--lightD1"
-						margin="0px 0px 0px 0px"
-						width="100%"
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
-						font="--headline1"
-					>
-						Beauty
-					</Text>
-				</Box>
-			</Box>
-			<Box
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-				flex-wrap="wrap"
-				margin="0px 0px 46px 0px"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-			>
-				<Box
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="35%"
-					sm-width="20%"
-				>
-					<Text margin="0px 0px 0px 0px" font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light">
-						03
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					width="65%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-				>
-					<Text
-						font="--headline1"
-						color="--lightD1"
-						margin="0px 0px 0px 0px"
-						width="100%"
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
-					>
-						Culture
-					</Text>
-				</Box>
-			</Box>
-			<Box
-				empty-border-color="LightGray"
-				display="flex"
-				flex-wrap="wrap"
-				margin="0px 0px 46px 0px"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-			>
-				<Box
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="35%"
-					sm-width="20%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
-						04
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					width="65%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-				>
-					<Text
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
-						font="--headline1"
-						color="--lightD1"
-						margin="0px 0px 0px 0px"
-						width="100%"
-					>
-						View on Magazine
-					</Text>
-				</Box>
-			</Box>
-			<Box
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-				flex-wrap="wrap"
-				margin="0px 0px 46px 0px"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-			>
-				<Box
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="35%"
-					sm-width="20%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
-						05
-					</Text>
-				</Box>
-				<Box
-					empty-border-color="LightGray"
-					display="flex"
-					width="65%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-				>
-					<Text
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
-						font="--headline1"
-						color="--lightD1"
-						margin="0px 0px 0px 0px"
-						width="100%"
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-					>
-						Consultant
-					</Text>
-				</Box>
-			</Box>
+			<Image
+				src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7937.jpeg?v=2026-06-03T18:37:03.575Z"
+				display="block"
+				width="380px"
+				height="600px"
+				position="absolute"
+				bottom="auto"
+				left="18px"
+				right="auto"
+				top="1337px"
+				srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7937.jpeg?v=2026-06-03T18%3A37%3A03.575Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7937.jpeg?v=2026-06-03T18%3A37%3A03.575Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7937.jpeg?v=2026-06-03T18%3A37%3A03.575Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7937.jpeg?v=2026-06-03T18%3A37%3A03.575Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7937.jpeg?v=2026-06-03T18%3A37%3A03.575Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7937.jpeg?v=2026-06-03T18%3A37%3A03.575Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7937.jpeg?v=2026-06-03T18%3A37%3A03.575Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
+			<Image
+				src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7936.jpeg?v=2026-06-03T18:37:03.566Z"
+				display="block"
+				width="400px"
+				height="600px"
+				position="absolute"
+				bottom="1071px"
+				left="386px"
+				right="auto"
+				top="auto"
+				srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7936.jpeg?v=2026-06-03T18%3A37%3A03.566Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7936.jpeg?v=2026-06-03T18%3A37%3A03.566Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7936.jpeg?v=2026-06-03T18%3A37%3A03.566Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7936.jpeg?v=2026-06-03T18%3A37%3A03.566Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7936.jpeg?v=2026-06-03T18%3A37%3A03.566Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7936.jpeg?v=2026-06-03T18%3A37%3A03.566Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7936.jpeg?v=2026-06-03T18%3A37%3A03.566Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
 		</Section>
 		<Section padding="50px 0 100px 0">
 			<Box
@@ -685,10 +571,6 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Box min-width="100px" min-height="100px" />
-		<Text margin="0px 0px 0px 0px">
-			Some text
-		</Text>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

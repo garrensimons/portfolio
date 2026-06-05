@@ -8,6 +8,9 @@ const pageStyles = {
     },
     "index": {
         "background": "--color-dark"
+    },
+    "artist-statement": {
+        "background": "--color-dark"
     }
 };
 

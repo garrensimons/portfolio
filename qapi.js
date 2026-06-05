@@ -5,7 +5,8 @@ export default {
 			"name": "root",
 			"children": [
 				"69891a2bd788530023e4413e",
-				"69891a2bd788530023e44142"
+				"69891a2bd788530023e44142",
+				"6a224a884cbc690025c5ecee"
 			],
 			"id": "root"
 		},
@@ -18,6 +19,11 @@ export default {
 			"id": "69891a2bd788530023e44142",
 			"name": "index",
 			"pageUrl": "index"
+		},
+		"6a224a884cbc690025c5ecee": {
+			"id": "6a224a884cbc690025c5ecee",
+			"pageUrl": "artist-statement",
+			"name": "Artist Statement"
 		}
 	},
 	"mode": "production",

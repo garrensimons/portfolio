@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Button, Box, Section, Text, Hr, Span, Image } from "@quarkly/widgets";
+import { Theme, Link, Structure, Section, Text, Box, Hr, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -28,98 +28,87 @@ export default (() => {
 			quarkly-title="Header"
 			min-width="8px"
 			min-height="8px"
-			width="1780px"
-			height="150.792px"
+			width="1279.2591688368057px"
+			height="147.82901443142362px"
 			background="#ffffff"
 			margin="0 0 0 0px"
 			inner-width="default"
 			padding="px px 24px px"
 			position="fixed"
-			bottom="auto"
-			left="auto"
+			bottom="2860.172985568576px"
+			left="0.7408311631943434px"
 			right="0px"
 			top="0px"
 		>
 			<Override slot="SectionContent" align-items="center" justify-content="space-between" position="fixed" />
-			<Box
-				empty-border-color="LightGray"
-				width="30%"
-				align-items="center"
-				lg-width="50%"
-				empty-min-height="64px"
-				empty-border-style="solid"
-				display="flex"
-				sm-width="70%"
-				empty-min-width="64px"
-				empty-border-width="1px"
-			>
-				<Components.HelloIAmDude
-					width="309.4220822482639px"
-					position="fixed"
-					top="34px"
-					bottom="auto"
-					height="65.06595555555556px"
-					left="590px"
-					right="auto"
-				>
-					Artist Statement
-				</Components.HelloIAmDude>
-				<Link href="#" color="#000000">
-					Some text
-				</Link>
-				<Components.HelloIAmDude
-					width="117.09639105902778px"
-					position="fixed"
-					top="36px"
-					bottom="2989.7284733072916px"
-					height="63.606526692708336px"
-					left="459.385px"
-					right="703.5186089409722px"
-				>
-					About
-				</Components.HelloIAmDude>
-				<Button>
-					Button
-				</Button>
-				<Components.HelloIAmDude
-					width="286.46541731770833px"
-					position="fixed"
-					top="38px"
-					bottom="auto"
-					height="58.812533333333334px"
-					left="auto"
-					right="77px"
-				>
-					Works
-				</Components.HelloIAmDude>
-				<Components.HelloIAmDude
-					width="284.2070434056332px"
-					position="fixed"
-					top="34.2708px"
-					bottom="3163.3340618575244px"
-					height="62.385938142475325px"
-					left="12.0176px"
-					right="1479.7719565943667px"
-				/>
-				<Components.HelloIAmDude
-					width="284.2070434056332px"
-					position="fixed"
-					top="334px"
-					bottom="auto"
-					height="62.385938142475325px"
-					left="330px"
-					right="auto"
-				/>
-				<Components.HelloIAmDude
-					width="284.2070434056332px"
-					position="fixed"
-					top="34.2708px"
-					bottom="3163.3340618575244px"
-					height="62.385938142475325px"
-					left="12.0176px"
-					right="1479.7719565943667px"
-				/>
-			</Box>
+			<Structure cells-number-total="4">
+				<Override slot="Content">
+					<Override slot="cell-0">
+						<Components.HelloIAmDude
+							width="25rem"
+							position="static"
+							top="334px"
+							bottom="auto"
+							left="330px"
+							right="auto"
+							white-space="nowrap"
+							font="normal 400 50px/1.5 georgia"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Link
+							href="#statement"
+							color="#000000"
+							font="30px --fontFamily-googleNotoSerifGeorgian"
+							white-space="nowrap"
+							text-decoration-line="initial"
+							text-align="center"
+							link-href="/artist-statement"
+						>
+							Artist Statement
+						</Link>
+					</Override>
+					<Override slot="cell-2">
+						<Link
+							href="#statement"
+							color="#000000"
+							font="30px --fontFamily-googleNotoSerifGeorgian"
+							white-space="nowrap"
+							text-decoration-line="initial"
+							text-align="center"
+						>
+							Works
+						</Link>
+					</Override>
+					<Override
+						slot="Cell 0th"
+						text-align="left"
+						align-items="center"
+						display="flex"
+						flex-direction="row"
+						justify-content="center"
+					/>
+					<Override slot="cell-3">
+						<Link
+							href="#statement"
+							color="#000000"
+							font="30px --fontFamily-googleNotoSerifGeorgian"
+							white-space="nowrap"
+							text-decoration-line="initial"
+							text-align="center"
+						>
+							About
+						</Link>
+					</Override>
+					<Override
+						slot="Cell"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						flex-direction="row"
+					/>
+				</Override>
+			</Structure>
 		</Section>
 		<Section
 			padding="140px 0 140px 0"
@@ -127,21 +116,10 @@ export default (() => {
 			background="linear-gradient(0deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,.2) 100%),--color-dark url(https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18:37:03.591Z) 50% 55%/cover"
 			color="--light"
 			font="--base"
+			height="1000px"
+			margin="150px 0 0 0"
 		>
 			<Override slot="SectionContent" sm-align-items="center" />
-			<Box width="100%" height="280px">
-				<Text
-					as="h1"
-					margin="0 0 96px 0"
-					text-align="center"
-					letter-spacing="50px"
-					font="100 132px/1.2 --fontFamily-sans"
-					lg-font="200 42px/1.2 --fontFamily-sans"
-					lg-letter-spacing="20px"
-				>
-					<br />
-				</Text>
-			</Box>
 			<Box display="flex" margin="-16px -16px -16px -16px" flex-wrap="wrap" width="100%">
 				<Box
 					display="flex"
@@ -291,7 +269,7 @@ export default (() => {
 				display="block"
 				width="425.54555555555555px"
 				height="604.271px"
-				position="fixed"
+				position="static"
 				bottom="auto"
 				left="406px"
 				right="auto"
@@ -305,7 +283,7 @@ export default (() => {
 				width="380px"
 				height="600px"
 				align-self="flex-start"
-				position="absolute"
+				position="static"
 				bottom="auto"
 				left="17px"
 				right="auto"
@@ -350,7 +328,7 @@ export default (() => {
 				display="block"
 				width="380px"
 				height="600px"
-				position="absolute"
+				position="static"
 				bottom="auto"
 				left="18px"
 				right="auto"
@@ -363,7 +341,7 @@ export default (() => {
 				display="block"
 				width="400px"
 				height="600px"
-				position="absolute"
+				position="static"
 				bottom="1071px"
 				left="386px"
 				right="auto"

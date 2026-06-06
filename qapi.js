@@ -6,7 +6,9 @@ export default {
 			"children": [
 				"69891a2bd788530023e4413e",
 				"69891a2bd788530023e44142",
-				"6a224a884cbc690025c5ecee"
+				"6a224a884cbc690025c5ecee",
+				"6a224f222d10660018bd4eb9",
+				"6a224f4590a2bb0024be2d3c"
 			],
 			"id": "root"
 		},
@@ -24,6 +26,16 @@ export default {
 			"id": "6a224a884cbc690025c5ecee",
 			"pageUrl": "artist-statement",
 			"name": "Artist Statement"
+		},
+		"6a224f222d10660018bd4eb9": {
+			"pageUrl": "artist-statement",
+			"id": "6a224f222d10660018bd4eb9",
+			"name": "Works"
+		},
+		"6a224f4590a2bb0024be2d3c": {
+			"pageUrl": "artist-statement",
+			"id": "6a224f4590a2bb0024be2d3c",
+			"name": "About"
 		}
 	},
 	"mode": "production",

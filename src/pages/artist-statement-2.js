@@ -24,18 +24,12 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60da14fa3f4eb1001ea27689/images/270x270.png?v=2021-10-07T09:34:41.365Z"} />
 			<meta name={"msapplication-TileColor"} content={"#04080C"} />
 		</Helmet>
-		<Components.GsPageHeader />
 		<Section margin="150px 0 0 0">
-			<Text margin="0px 0px 0px 0px" color="#ffffff" font="25px sans-serif">
-				My work uses traditional and sculptural techniques to show the daily struggle of women and queer people. I am a young queer woman, who grew up in a conservative household with my single father. Self expression was difficult during these times, and often made me feel as if I had to hide such a big part of my self. Coming out of that situation I find myself wanting to explore and express my queerness, my struggles, and my views of the world and its injustice. I want to show the rest of the world the struggles I see my friends, family, and neighbors go through as well. I've been heavily inspired by the style of chiaroscuro, creating a deep contrast of light and dark illuminating the figure.
-				<br />
-				<br />
-				(I've written up to here)
-				<br />
-				<br />
-				{"  "}I enjoy doing research of past queer and feminist figures, often taking inspiration from their stories, and reimagining them in present time. I like taking technique inspiration from classic impressionists, Claude Monet, Edgar Degass, and such. Making art like this is very personal to me and makes me passionate about having others seeing it and putting themselves in others shoes. I've always wanted to be able to show the stories, because sometimes telling is just not enough.{" \n\n"}
+			<Text margin="0px 0px 0px 0px" color="#ffffff" font="20px sans-serif">
+				hey I am some dude, this is my artist  statement
 			</Text>
 		</Section>
+		<Components.GsPageHeader />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

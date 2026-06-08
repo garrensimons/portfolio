@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Structure, Button, Section, Text, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Structure, Button, Section, Box, Text, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -201,6 +201,7 @@ export default (() => {
 			</Structure>
 		</Section>
 		<Section quarkly-title="Sculptures" id="sculptures" margin="500px 0 0 0">
+			<Box min-width="100px" min-height="100px" height="200px" />
 			<Box min-width="100px" min-height="100px">
 				<Text margin="0px 0px 0px 0px" color="#ffffff" font="60px sans-serif" padding="0px 0px 0px 400px">
 					Sculptures
@@ -367,6 +368,7 @@ export default (() => {
 			</Structure>
 		</Section>
 		<Section quarkly-title="Traditional" id="traditional" margin="250px 0 0 0">
+			<Box min-width="100px" min-height="100px" height="200px" />
 			<Box min-width="100px" min-height="100px">
 				<Text margin="0px 0px 0px 0px" color="#ffffff" font="60px sans-serif" padding="0px 0px 0px 400px">
 					Traditional
@@ -558,6 +560,7 @@ export default (() => {
 			</Structure>
 		</Section>
 		<Section quarkly-title="Figure studies" id="figure" margin="250px 0 0 0">
+			<Box min-width="100px" min-height="100px" height="200px" />
 			<Box min-width="100px" min-height="100px">
 				<Text margin="0px 0px 0px 0px" color="#ffffff" font="60px sans-serif" padding="0px 0px 0px 400px">
 					Figure Studies

@@ -45,7 +45,7 @@ export default (() => {
 				empty-border-style="solid"
 			>
 				<Text margin="0px 0px 0px 0px" font="--headline3" color="--light">
-					Melly Franklin
+					Garren Simons
 				</Text>
 			</Box>
 			<Box
@@ -104,13 +104,14 @@ export default (() => {
 				order="0"
 				display="block"
 				height="600px"
-				margin="0px 0px 80px 0px"
+				margin="px 0px 80px 0px"
 				object-position="50% 75%"
 				width="100%"
-				src="https://images.unsplash.com/photo-1519242220831-09410926fbff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80"
+				src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7953.jpeg?v=2026-06-03T18:37:03.598Z"
 				flex="0 1 auto"
 				object-fit="cover"
-				srcSet="https://images.unsplash.com/photo-1519242220831-09410926fbff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1519242220831-09410926fbff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1519242220831-09410926fbff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1519242220831-09410926fbff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1519242220831-09410926fbff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1519242220831-09410926fbff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1519242220831-09410926fbff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+				padding="px 0px 0px 0px"
+				srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7953.jpeg?v=2026-06-03T18%3A37%3A03.598Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7953.jpeg?v=2026-06-03T18%3A37%3A03.598Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7953.jpeg?v=2026-06-03T18%3A37%3A03.598Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7953.jpeg?v=2026-06-03T18%3A37%3A03.598Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7953.jpeg?v=2026-06-03T18%3A37%3A03.598Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7953.jpeg?v=2026-06-03T18%3A37%3A03.598Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7953.jpeg?v=2026-06-03T18%3A37%3A03.598Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 			<Text
@@ -126,319 +127,6 @@ export default (() => {
 			>
 				Sorry, but the page you requested cannot be found. Error #404.{"\n\n"}
 			</Text>
-		</Section>
-		<Section padding="50px 0 100px 0">
-			<Box
-				margin="0px 0px 46px 0px"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-				flex-wrap="wrap"
-			>
-				<Box
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="35%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
-						01
-					</Text>
-				</Box>
-				<Box
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="65%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-				>
-					<Text
-						width="100%"
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
-						font="--headline1"
-						color="--lightD1"
-						margin="0px 0px 0px 0px"
-					>
-						Fashion
-					</Text>
-				</Box>
-			</Box>
-			<Box
-				margin="0px 0px 46px 0px"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-				flex-wrap="wrap"
-			>
-				<Box
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="35%"
-				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
-						02
-					</Text>
-				</Box>
-				<Box
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="65%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-				>
-					<Text
-						margin="0px 0px 0px 0px"
-						width="100%"
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
-						font="--headline1"
-						color="--lightD1"
-					>
-						Beauty
-					</Text>
-				</Box>
-			</Box>
-			<Box
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-				flex-wrap="wrap"
-				margin="0px 0px 46px 0px"
-			>
-				<Box
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="35%"
-				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
-						03
-					</Text>
-				</Box>
-				<Box
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="65%"
-				>
-					<Text
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
-						font="--headline1"
-						color="--lightD1"
-						margin="0px 0px 0px 0px"
-						width="100%"
-					>
-						Culture
-					</Text>
-				</Box>
-			</Box>
-			<Box
-				margin="0px 0px 46px 0px"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-				flex-wrap="wrap"
-			>
-				<Box
-					empty-border-color="LightGray"
-					display="flex"
-					width="35%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
-						04
-					</Text>
-				</Box>
-				<Box
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="65%"
-					empty-min-width="64px"
-				>
-					<Text
-						font="--headline1"
-						color="--lightD1"
-						margin="0px 0px 0px 0px"
-						width="100%"
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
-					>
-						View on Magazine
-					</Text>
-				</Box>
-			</Box>
-			<Box
-				flex-wrap="wrap"
-				margin="0px 0px 46px 0px"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-			>
-				<Box
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="35%"
-					empty-min-width="64px"
-					empty-min-height="64px"
-				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
-						05
-					</Text>
-				</Box>
-				<Box
-					empty-min-width="64px"
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					display="flex"
-					width="65%"
-				>
-					<Text
-						font="--headline1"
-						color="--lightD1"
-						margin="0px 0px 0px 0px"
-						width="100%"
-						md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-						sm-font="normal 700 38px/1.1 &quot;Inter&quot;, sans-serif"
-					>
-						Consultant
-					</Text>
-				</Box>
-			</Box>
-		</Section>
-		<Section padding="48px 0 48px 0">
-			<Box
-				empty-border-color="LightGray"
-				display="flex"
-				justify-content="flex-end"
-				sm-flex-wrap="wrap"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				empty-border-style="solid"
-			>
-				<Box
-					empty-min-width="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					padding="16px 16px 16px 16px"
-					lg-width="33.333%"
-					sm-width="100%"
-					empty-min-height="64px"
-					empty-border-color="LightGray"
-					width="25%"
-				>
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1535361109-b8fa03822e9d?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 50% 0/cover no-repeat" />
-					<Text as="h3" font="--base" margin="5px 0 0px 0" color="--lightD1">
-						Town & Country
-					</Text>
-					<Text as="p" margin="20px 0 5px 0" color="--lightD2">
-						Couture Trends to Try Now
-					</Text>
-				</Box>
-				<Box
-					empty-min-height="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					width="25%"
-					padding="16px 16px 16px 16px"
-					sm-width="100%"
-					empty-min-width="64px"
-					lg-width="33.333%"
-					empty-border-color="LightGray"
-				>
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1549298222-1c31e8915347?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000) 50% 0/cover no-repeat" />
-					<Text font="--base" margin="5px 0 0px 0" color="--lightD1" as="h3">
-						W Magazine
-					</Text>
-					<Text margin="20px 0 5px 0" color="--lightD2" as="p">
-						A Visual Diary of Couture Week
-					</Text>
-				</Box>
-				<Box
-					empty-min-width="64px"
-					empty-border-width="1px"
-					empty-border-style="solid"
-					empty-border-color="LightGray"
-					width="25%"
-					padding="16px 16px 16px 16px"
-					empty-min-height="64px"
-					lg-width="33.333%"
-					sm-width="100%"
-				>
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 50% 0/cover no-repeat" />
-					<Text font="--base" margin="5px 0 0px 0" color="--lightD1" as="h3">
-						Refinery
-					</Text>
-					<Text margin="20px 0 5px 0" color="--lightD2" as="p">
-						How Archive Fashion Came to Dominate TikTok
-					</Text>
-				</Box>
-			</Box>
-		</Section>
-		<Section padding="150px 0 150px 0" sm-align-items="center" md-padding="60px 0 60px 0">
-			<Override slot="SectionContent" sm-justify-content="center" align-items="flex-end" lg-align-items="center" />
-			<Link
-				href="#"
-				md-font="normal 700 52px/1.1 &quot;Inter&quot;, sans-serif"
-				border-style="solid"
-				md-margin="0px 0px 0px 0px"
-				sm-text-align="center"
-				margin="0px 10% 0px 0px"
-				color="--light"
-				font="--headline1"
-				border-width="0 0 1px 0"
-				sm-margin="0px 0px 0px 0px"
-				lg-margin="0px 0px 0px 0px"
-				text-decoration-line="initial"
-				border-color="--color-light"
-				sm-font="normal 700 34px/1.1 &quot;Inter&quot;, sans-serif"
-			>
-				Let's work tgther!
-			</Link>
 		</Section>
 		<Section sm-padding="74px 0 74px 0" quarkly-title="Footer" padding="90px 0 90px 0">
 			<Override slot="SectionContent" flex-direction="row" md-flex-direction="column" md-align-items="center" />
@@ -456,7 +144,7 @@ export default (() => {
 				md-justify-content="center"
 			>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--light" sm-text-align="center">
-					Melly Franklin
+					Garren Simons
 				</Text>
 			</Box>
 			<Box
@@ -479,9 +167,9 @@ export default (() => {
 					font="--base"
 					color="--light"
 				>
-					+1 (705) 177-58-55
+					+1 (615) 934-1577
 					<br />
-					melly@fbfranklin.com
+					Garrensimons@gmail.com
 				</Text>
 			</Box>
 			<Box
@@ -504,9 +192,9 @@ export default (() => {
 					font="--base"
 					color="--light"
 				>
-					123 Demo Street New York,{" "}
+					Instagram: short._.squid
 					<br />
-					NY 12345
+					Tiktok: Short._.squid
 				</Text>
 			</Box>
 		</Section>

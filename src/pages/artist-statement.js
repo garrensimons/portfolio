@@ -1,10 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Structure, Section, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
-import * as Components from "components";
+import { RawHtml, Override } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"artist-statement"} />
@@ -24,7 +23,136 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60da14fa3f4eb1001ea27689/images/270x270.png?v=2021-10-07T09:34:41.365Z"} />
 			<meta name={"msapplication-TileColor"} content={"#04080C"} />
 		</Helmet>
-		<Components.GsPageHeader />
+		<Section
+			quarkly-title="Header"
+			min-width="8px"
+			min-height="8px"
+			width="1279.2591688368057px"
+			height="147.82901443142362px"
+			background="#ffffff"
+			margin="0 0 0 0px"
+			inner-width="default"
+			padding="px px 24px px"
+			position="fixed"
+			bottom="2860.172985568576px"
+			left="0.7408311631943434px"
+			right="0px"
+			top="0px"
+		>
+			<Override slot="SectionContent" align-items="center" justify-content="space-between" position="fixed" />
+			<Structure cells-number-total="4">
+				<Override slot="Content">
+					<Override slot="cell-0">
+						<Link
+							href="/index"
+							color="#000000"
+							font="50px --fontFamily-googleNotoSerifGeorgian"
+							white-space="nowrap"
+							text-decoration-line="initial"
+							text-align="center"
+							link-href="/artist-statement"
+						>
+							Garren Simons
+						</Link>
+					</Override>
+					<Override slot="cell-1">
+						<Link
+							href="/artist-statement"
+							color="#000000"
+							font="30px --fontFamily-googleNotoSerifGeorgian"
+							white-space="nowrap"
+							text-decoration-line="initial"
+							text-align="center"
+							link-href="/artist-statement"
+						>
+							Artist Statement
+						</Link>
+					</Override>
+					<Override slot="cell-2">
+						<Link
+							href="/works"
+							color="#000000"
+							font="30px --fontFamily-googleNotoSerifGeorgian"
+							white-space="nowrap"
+							text-decoration-line="initial"
+							text-align="center"
+						>
+							Works
+						</Link>
+					</Override>
+					<Override
+						slot="Cell 0th"
+						text-align="left"
+						align-items="center"
+						display="flex"
+						flex-direction="row"
+						justify-content="space-between"
+					/>
+					<Override slot="cell-3">
+						<Link
+							href="/about"
+							color="#000000"
+							font="30px --fontFamily-googleNotoSerifGeorgian"
+							white-space="nowrap"
+							text-decoration-line="initial"
+							text-align="center"
+						>
+							About
+						</Link>
+					</Override>
+					<Override
+						slot="Cell"
+						display="flex"
+						align-items="center"
+						justify-content="flex-end"
+						flex-direction="row"
+					/>
+					<Override
+						slot="Cell 0"
+						display="flex"
+						align-items="center"
+						justify-content="flex-start"
+						flex-direction="row"
+					/>
+					<Override
+						slot="Cell 2"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						flex-direction="row"
+						margin="0px 0px 0px 35px"
+					/>
+					<Override
+						slot="Cell 3"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						flex-direction="row"
+					/>
+					<Override
+						slot="Cell 1"
+						display="flex"
+						align-items="center"
+						justify-content="flex-end"
+						flex-direction="row"
+						margin="0px 0px 0px 90px"
+						padding="0px 0px 0px 0px"
+					/>
+					<Override slot="cell-4">
+						<Link
+							href="/artist-statement"
+							color="#000000"
+							font="30px --fontFamily-googleNotoSerifGeorgian"
+							white-space="nowrap"
+							text-decoration-line="initial"
+							text-align="center"
+						>
+							Contact
+						</Link>
+					</Override>
+				</Override>
+			</Structure>
+		</Section>
 		<Section margin="150px 0 0 0">
 			<Text margin="0px 0px 0px 0px" color="#ffffff" font="25px sans-serif">
 				My work uses traditional and sculptural techniques to show the daily struggle of women and queer people. I am a young queer woman, who grew up in a conservative household with my single father. Self expression was difficult during these times, and often made me feel as if I had to hide such a big part of my self. Coming out of that situation I find myself wanting to explore and express my queerness, my struggles, and my views of the world and its injustice. I want to show the rest of the world the struggles I see my friends, family, and neighbors go through as well. I've been heavily inspired by the style of chiaroscuro, creating a deep contrast of light and dark illuminating the figure.

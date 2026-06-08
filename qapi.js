@@ -28,12 +28,12 @@ export default {
 			"name": "Artist Statement"
 		},
 		"6a224f222d10660018bd4eb9": {
-			"pageUrl": "artist-statement",
+			"pageUrl": "works",
 			"id": "6a224f222d10660018bd4eb9",
 			"name": "Works"
 		},
 		"6a224f4590a2bb0024be2d3c": {
-			"pageUrl": "artist-statement",
+			"pageUrl": "about",
 			"id": "6a224f4590a2bb0024be2d3c",
 			"name": "About"
 		}

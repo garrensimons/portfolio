@@ -1,12 +1,12 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Structure, Section, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Structure, Section, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"index"} />
+		<GlobalQuarklyPageStyles pageUrl={"about"} />
 		<Helmet>
 			<title>
 				Merry Franklin — writer, editor & consultant.
@@ -76,7 +76,6 @@ export default (() => {
 							white-space="nowrap"
 							text-decoration-line="initial"
 							text-align="center"
-							link-href="/artist-statement"
 						>
 							Works
 						</Link>
@@ -154,78 +153,13 @@ export default (() => {
 				</Override>
 			</Structure>
 		</Section>
-		<Section
-			padding="140px 0 140px 0"
-			sm-padding="40px 0 40px 0"
-			background="linear-gradient(0deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,.2) 100%),--color-dark url(https://uploads.quarkly.io/69891a2bd788530023e4412f/images/website%20aceholder.jpg?v=2026-06-05T19:36:52.051Z) 50% 55%/cover"
-			color="--light"
-			font="--base"
-			height="1000px"
-			margin="0 0 0 0"
-		>
-			<Override slot="SectionContent" sm-align-items="center" />
-		</Section>
-		<Section padding="50px 0 100px 0">
-			<Box
-				empty-min-width="64px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-				width="40%"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				justify-content="center"
-				sm-width="100%"
-				sm-justify-content="flex-start"
-				sm-padding="0px 0px 16px 0px"
-				margin="0px 0px 0px 270px"
-			>
-				<Text
-					color="--light"
-					margin="0px px 0px 0px"
-					font="normal 600 25px/1.5 --fontFamily-googleInter"
-					white-space="nowrap"
-					padding="0px 0px 0px 0px"
-					text-align="left"
-				>
-					Contemporary artist based in Murfreesboro, Tn
-				</Text>
-			</Box>
-			<Box
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				display="flex"
-				width="35%"
-				sm-justify-content="flex-start"
-				empty-min-width="64px"
-				empty-min-height="64px"
-				empty-border-width="1px"
-				sm-width="100%"
-				sm-padding="0px 0px 16px 0px"
-				justify-content="space-between"
-				margin="0px 0px 0px 350px"
-				align-items="center"
-				flex-direction="row"
-			>
-				<Text
-					color="--lightD1"
-					margin="px px 0px px"
-					md-font="500 20px/1.3 --fontFamily-googleInter"
-					sm-width="100%"
-					font="--headline4"
-					order="1"
-					padding="0px 0px 0px 0px"
-					white-space="nowrap"
-				>
-					{"                   "}Contact:
-					<br />
-					Phone Number: (615) 934-1577
-					<br />
-					Email: Garrensimons@gmail.com
-					<br />
-					Instagram: short._.squid
-				</Text>
-			</Box>
+		<Section margin="150px 0 0 0">
+			<Text margin="0px 0px 0px 0px" color="#ffffff" font="20px sans-serif">
+				Garren Simons is an undergraduate at Middle Tennessee State University working towards her BFA in studio arts. She has lived in Nashville for basically all her life, But currently resides in Murfreesboro for school. Garren's focus of study is ceramic sculptures and watercolor.
+				<br />
+				<br />
+				Garren in the past focused mainly on traditional medium such as charcoal and graphite, but recently from college classes has found a new passion in ceramic sculptures, 3-D has always been a medium that intrigued Garren but was hard to grasp because of the process of carving or taking away. With clay however the act of being able to push, pull, add, and reduce fascinated Garren and started her on her journey. She continues to work with her one true love; watercolor.
+			</Text>
 		</Section>
 		<Link
 			font={"--capture"}

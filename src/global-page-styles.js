@@ -11,6 +11,12 @@ const pageStyles = {
     },
     "artist-statement": {
         "background": "--color-dark"
+    },
+    "works": {
+        "background": "--color-dark"
+    },
+    "about": {
+        "background": "--color-dark"
     }
 };
 

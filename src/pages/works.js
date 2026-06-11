@@ -214,7 +214,7 @@ export default (() => {
 							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18:37:03.597Z"
 							display="block"
 							width="500px"
-							height="707.948px"
+							height="707px"
 							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
@@ -245,6 +245,8 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" width="500px" />
+					<Override slot="Cell 1" width="500px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="3" quarkly-title="Armadillo">
@@ -253,8 +255,7 @@ export default (() => {
 						<Image
 							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18:37:03.591Z"
 							display="block"
-							width="500px"
-							height="656.333px"
+							height="665px"
 							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
@@ -374,19 +375,34 @@ export default (() => {
 					Traditional
 				</Text>
 			</Box>
-			<Structure cells-number-total="2" quarkly-title="No choice" margin="0px 0px 0px 250px">
+			<Structure cells-number-total="2" quarkly-title="No choice" margin="0px 0px 0px 10px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18:37:03.597Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7645%20%281%29.jpeg?v=2026-06-10T19:25:57.520Z"
 							display="block"
-							width="500px"
-							height="707.948px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=3200 3200w"
+							width="900px"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7645%20%281%29.jpeg?v=2026-06-10T19%3A25%3A57.520Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7645%20%281%29.jpeg?v=2026-06-10T19%3A25%3A57.520Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7645%20%281%29.jpeg?v=2026-06-10T19%3A25%3A57.520Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7645%20%281%29.jpeg?v=2026-06-10T19%3A25%3A57.520Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7645%20%281%29.jpeg?v=2026-06-10T19%3A25%3A57.520Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7645%20%281%29.jpeg?v=2026-06-10T19%3A25%3A57.520Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7645%20%281%29.jpeg?v=2026-06-10T19%3A25%3A57.520Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
 					<Override slot="cell-1">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="300px 0px 0px 0px"
+						>
+							"No Choice"{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2">
 						<Text
 							margin="0px 0px 0px 0px"
 							border-color="#000000"
@@ -402,6 +418,36 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" width="900px" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="&quot;Alien&quot;" margin="0px 0px 0px 10px">
+				<Override slot="Content">
+					<Override slot="cell-0">
+						<Image
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7979.jpeg?v=2026-06-10T19:27:15.743Z"
+							display="block"
+							width="900px"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7979.jpeg?v=2026-06-10T19%3A27%3A15.743Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7979.jpeg?v=2026-06-10T19%3A27%3A15.743Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7979.jpeg?v=2026-06-10T19%3A27%3A15.743Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7979.jpeg?v=2026-06-10T19%3A27%3A15.743Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7979.jpeg?v=2026-06-10T19%3A27%3A15.743Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7979.jpeg?v=2026-06-10T19%3A27%3A15.743Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7979.jpeg?v=2026-06-10T19%3A27%3A15.743Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Alien"
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
 					<Override slot="cell-2">
 						<Text
 							margin="0px 0px 0px 0px"
@@ -409,7 +455,7 @@ export default (() => {
 							color="#ffffff"
 							font="28px sans-serif"
 							white-space="nowrap"
-							padding="300px 0px 0px 0px"
+							padding="250px 0px 0px 0px"
 						>
 							"Untittled{" "}
 							<br />
@@ -418,9 +464,56 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" width="900px" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="&quot;Alien&quot;" margin="0px 0px 0px 250px">
+			<Structure cells-number-total="2" quarkly-title="&quot;Eat The ____!&quot;" margin="0px 0px 0px 10px">
+				<Override slot="Content">
+					<Override slot="cell-0">
+						<Image
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7993.jpeg?v=2026-06-10T19:30:19.012Z"
+							display="block"
+							width="900px"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7993.jpeg?v=2026-06-10T19%3A30%3A19.012Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7993.jpeg?v=2026-06-10T19%3A30%3A19.012Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7993.jpeg?v=2026-06-10T19%3A30%3A19.012Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7993.jpeg?v=2026-06-10T19%3A30%3A19.012Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7993.jpeg?v=2026-06-10T19%3A30%3A19.012Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7993.jpeg?v=2026-06-10T19%3A30%3A19.012Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7993.jpeg?v=2026-06-10T19%3A30%3A19.012Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Eat The ____!"{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Untittled{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="Cell 0" width="900px" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="Verdaccio" margin="0px 0px 0px 10px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
@@ -466,15 +559,14 @@ export default (() => {
 					</Override>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="&quot;Eat The ____!&quot;" margin="0px 0px 0px 250px">
+			<Structure cells-number-total="2" quarkly-title="responsibility" margin="0px 0px 0px 10px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18:37:03.591Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7642%20%282%29.jpeg?v=2026-06-10T19:25:57.548Z"
 							display="block"
-							width="500px"
-							height="656.333px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=3200 3200w"
+							height="1000px"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7642%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.548Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7642%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.548Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7642%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.548Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7642%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.548Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7642%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.548Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7642%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.548Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7642%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.548Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
@@ -487,7 +579,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="250px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Responsibility"{" "}
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -510,17 +602,18 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" height="1000px" />
+					<Override slot="Cell 0th" height="750px" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="Verdaccio" margin="0px 0px 0px 250px">
+			<Structure cells-number-total="2" quarkly-title="still life" margin="0px 0px 0px 10px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18:37:03.591Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7650.jpeg?v=2026-06-10T19:25:57.486Z"
 							display="block"
-							width="500px"
-							height="656.333px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7950.jpeg?v=2026-06-03T18%3A37%3A03.591Z&quality=85&w=3200 3200w"
+							height="1000px"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7650.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7650.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7650.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7650.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7650.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7650.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7650.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
@@ -533,7 +626,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="250px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Still life"{" "}
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -556,6 +649,53 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" height="1000px" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="dreamer" margin="0px 0px 0px 10px">
+				<Override slot="Content">
+					<Override slot="cell-0">
+						<Image
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7647%20%282%29.jpeg?v=2026-06-10T19:25:57.526Z"
+							display="block"
+							height="1000px"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7647%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.526Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7647%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.526Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7647%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.526Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7647%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.526Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7647%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.526Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7647%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.526Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7647%20%282%29.jpeg?v=2026-06-10T19%3A25%3A57.526Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Dreamer"
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Untittled{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="Cell 0" height="1000px" />
 				</Override>
 			</Structure>
 		</Section>
@@ -566,26 +706,25 @@ export default (() => {
 					Figure Studies
 				</Text>
 			</Box>
-			<Structure cells-number-total="3" quarkly-title="Us bust">
+			<Structure cells-number-total="3" quarkly-title="stare">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18:37:03.597Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7989.jpeg?v=2026-06-10T19:25:57.489Z"
 							display="block"
 							width="500px"
-							height="707.948px"
 							position="static"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=3200 3200w"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7989.jpeg?v=2026-06-10T19%3A25%3A57.489Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7989.jpeg?v=2026-06-10T19%3A25%3A57.489Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7989.jpeg?v=2026-06-10T19%3A25%3A57.489Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7989.jpeg?v=2026-06-10T19%3A25%3A57.489Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7989.jpeg?v=2026-06-10T19%3A25%3A57.489Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7989.jpeg?v=2026-06-10T19%3A25%3A57.489Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7989.jpeg?v=2026-06-10T19%3A25%3A57.489Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
 					<Override slot="cell-1">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18:37:03.595Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7988.jpeg?v=2026-06-10T19:25:57.486Z"
 							display="block"
 							width="500px"
 							margin="0px 0px 0px px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=3200 3200w"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7988.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7988.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7988.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7988.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7988.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7988.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7988.jpeg?v=2026-06-10T19%3A25%3A57.486Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
@@ -598,7 +737,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="200px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Lethargy"{" "}
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -612,7 +751,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="100px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Dread"
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -622,25 +761,24 @@ export default (() => {
 					<Override slot="Cell 0" position="static" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="3" quarkly-title="Us bust">
+			<Structure cells-number-total="3" quarkly-title="sit">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18:37:03.597Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7981.jpeg?v=2026-06-10T19:39:57.493Z"
 							display="block"
 							width="500px"
-							height="707.948px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=3200 3200w"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7981.jpeg?v=2026-06-10T19%3A39%3A57.493Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7981.jpeg?v=2026-06-10T19%3A39%3A57.493Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7981.jpeg?v=2026-06-10T19%3A39%3A57.493Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7981.jpeg?v=2026-06-10T19%3A39%3A57.493Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7981.jpeg?v=2026-06-10T19%3A39%3A57.493Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7981.jpeg?v=2026-06-10T19%3A39%3A57.493Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7981.jpeg?v=2026-06-10T19%3A39%3A57.493Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
 					<Override slot="cell-1">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18:37:03.595Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7982.jpeg?v=2026-06-10T19:39:57.686Z"
 							display="block"
-							width="500px"
+							width="495px"
 							margin="0px 0px 0px px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=3200 3200w"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7982.jpeg?v=2026-06-10T19%3A39%3A57.686Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7982.jpeg?v=2026-06-10T19%3A39%3A57.686Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7982.jpeg?v=2026-06-10T19%3A39%3A57.686Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7982.jpeg?v=2026-06-10T19%3A39%3A57.686Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7982.jpeg?v=2026-06-10T19%3A39%3A57.686Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7982.jpeg?v=2026-06-10T19%3A39%3A57.686Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7982.jpeg?v=2026-06-10T19%3A39%3A57.686Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
@@ -653,7 +791,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="200px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Poised"{" "}
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -667,7 +805,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="100px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"controlled"
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -676,25 +814,24 @@ export default (() => {
 					</Override>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="3" quarkly-title="Us bust">
+			<Structure cells-number-total="3" quarkly-title="lay">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18:37:03.597Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7983.jpeg?v=2026-06-10T19:39:57.533Z"
 							display="block"
-							width="500px"
-							height="707.948px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=3200 3200w"
+							width="495px"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7983.jpeg?v=2026-06-10T19%3A39%3A57.533Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7983.jpeg?v=2026-06-10T19%3A39%3A57.533Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7983.jpeg?v=2026-06-10T19%3A39%3A57.533Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7983.jpeg?v=2026-06-10T19%3A39%3A57.533Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7983.jpeg?v=2026-06-10T19%3A39%3A57.533Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7983.jpeg?v=2026-06-10T19%3A39%3A57.533Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7983.jpeg?v=2026-06-10T19%3A39%3A57.533Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
 					<Override slot="cell-1">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18:37:03.595Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7984.jpeg?v=2026-06-10T19:39:57.543Z"
 							display="block"
 							width="500px"
 							margin="0px 0px 0px px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=3200 3200w"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7984.jpeg?v=2026-06-10T19%3A39%3A57.543Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7984.jpeg?v=2026-06-10T19%3A39%3A57.543Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7984.jpeg?v=2026-06-10T19%3A39%3A57.543Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7984.jpeg?v=2026-06-10T19%3A39%3A57.543Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7984.jpeg?v=2026-06-10T19%3A39%3A57.543Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7984.jpeg?v=2026-06-10T19%3A39%3A57.543Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7984.jpeg?v=2026-06-10T19%3A39%3A57.543Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
@@ -707,7 +844,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="200px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Mid day nap"{" "}
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -721,7 +858,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="100px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Drifter"
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -730,25 +867,24 @@ export default (() => {
 					</Override>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="3" quarkly-title="Us bust">
+			<Structure cells-number-total="3" quarkly-title="stand">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18:37:03.597Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7987.jpeg?v=2026-06-10T19:39:57.506Z"
 							display="block"
 							width="500px"
-							height="707.948px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7924.jpeg?v=2026-06-03T18%3A37%3A03.597Z&quality=85&w=3200 3200w"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7987.jpeg?v=2026-06-10T19%3A39%3A57.506Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7987.jpeg?v=2026-06-10T19%3A39%3A57.506Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7987.jpeg?v=2026-06-10T19%3A39%3A57.506Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7987.jpeg?v=2026-06-10T19%3A39%3A57.506Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7987.jpeg?v=2026-06-10T19%3A39%3A57.506Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7987.jpeg?v=2026-06-10T19%3A39%3A57.506Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7987.jpeg?v=2026-06-10T19%3A39%3A57.506Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
 					<Override slot="cell-1">
 						<Image
-							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18:37:03.595Z"
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8002.jpeg?v=2026-06-10T20:04:10.591Z"
 							display="block"
-							width="500px"
-							margin="0px 0px 0px px"
-							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7927.jpeg?v=2026-06-03T18%3A37%3A03.595Z&quality=85&w=3200 3200w"
+							width="510px"
+							margin="px 0px 0px px"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8002.jpeg?v=2026-06-10T20%3A04%3A10.591Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8002.jpeg?v=2026-06-10T20%3A04%3A10.591Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8002.jpeg?v=2026-06-10T20%3A04%3A10.591Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8002.jpeg?v=2026-06-10T20%3A04%3A10.591Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8002.jpeg?v=2026-06-10T20%3A04%3A10.591Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8002.jpeg?v=2026-06-10T20%3A04%3A10.591Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8002.jpeg?v=2026-06-10T20%3A04%3A10.591Z&quality=85&w=3200 3200w"
 							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Override>
@@ -761,7 +897,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="200px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Protector"{" "}
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -775,6 +911,241 @@ export default (() => {
 							white-space="nowrap"
 							padding="100px 0px 0px 0px"
 						>
+							"Lady-like"
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="Cell 2" margin="0px 0px 0px -10px" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="long standing">
+				<Override slot="Content">
+					<Override slot="cell-0">
+						<Box min-width="100px" min-height="100px">
+							<Image
+								src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7990.jpeg?v=2026-06-10T19:25:57.471Z"
+								display="block"
+								width="620px"
+								height="465px"
+								srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7990.jpeg?v=2026-06-10T19%3A25%3A57.471Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7990.jpeg?v=2026-06-10T19%3A25%3A57.471Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7990.jpeg?v=2026-06-10T19%3A25%3A57.471Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7990.jpeg?v=2026-06-10T19%3A25%3A57.471Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7990.jpeg?v=2026-06-10T19%3A25%3A57.471Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7990.jpeg?v=2026-06-10T19%3A25%3A57.471Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7990.jpeg?v=2026-06-10T19%3A25%3A57.471Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
+							<Text
+								margin="0px 0px 0px 0px"
+								border-color="#000000"
+								color="#ffffff"
+								font="28px sans-serif"
+								white-space="nowrap"
+								padding="x 0px 0px 0px"
+							>
+								"Role"
+								<br />
+								Size: 11 x 9 in
+								<br />
+								Date: 2026
+							</Text>
+						</Box>
+					</Override>
+					<Override slot="cell-1">
+						<Box min-width="100px" min-height="100px" width="620px" height="465px">
+							<Image
+								src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7998.jpeg?v=2026-06-10T20:01:54.067Z"
+								display="block"
+								width="610px"
+								margin="px 0px 0px px"
+								srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7998.jpeg?v=2026-06-10T20%3A01%3A54.067Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7998.jpeg?v=2026-06-10T20%3A01%3A54.067Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7998.jpeg?v=2026-06-10T20%3A01%3A54.067Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7998.jpeg?v=2026-06-10T20%3A01%3A54.067Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7998.jpeg?v=2026-06-10T20%3A01%3A54.067Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7998.jpeg?v=2026-06-10T20%3A01%3A54.067Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7998.jpeg?v=2026-06-10T20%3A01%3A54.067Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
+						</Box>
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="x 0px 0px 0px"
+						>
+							"lookout"{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2" />
+					<Override slot="Cell 0th" margin="0px 0px 0px 0px" />
+					<Override slot="Cell 0" margin="0px 0px 0px -45px" />
+					<Override slot="Cell 1" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="long sitting">
+				<Override slot="Content">
+					<Override slot="cell-0">
+						<Box min-width="100px" min-height="100px">
+							<Image
+								src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7996.jpeg?v=2026-06-10T20:01:53.994Z"
+								display="block"
+								width="620px"
+								srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7996.jpeg?v=2026-06-10T20%3A01%3A53.994Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7996.jpeg?v=2026-06-10T20%3A01%3A53.994Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7996.jpeg?v=2026-06-10T20%3A01%3A53.994Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7996.jpeg?v=2026-06-10T20%3A01%3A53.994Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7996.jpeg?v=2026-06-10T20%3A01%3A53.994Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7996.jpeg?v=2026-06-10T20%3A01%3A53.994Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7996.jpeg?v=2026-06-10T20%3A01%3A53.994Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
+							<Text
+								margin="0px 0px 0px 0px"
+								border-color="#000000"
+								color="#ffffff"
+								font="28px sans-serif"
+								white-space="nowrap"
+								padding="x 0px 0px 0px"
+							>
+								"Relaxed"
+								<br />
+								Size: 11 x 9 in
+								<br />
+								Date: 2026
+							</Text>
+						</Box>
+					</Override>
+					<Override slot="cell-1">
+						<Box min-width="100px" min-height="100px">
+							<Image
+								src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8003.jpeg?v=2026-06-10T20:01:53.958Z"
+								display="block"
+								width="610px"
+								margin="px 0px 0px px"
+								height="465px"
+								srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8003.jpeg?v=2026-06-10T20%3A01%3A53.958Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8003.jpeg?v=2026-06-10T20%3A01%3A53.958Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8003.jpeg?v=2026-06-10T20%3A01%3A53.958Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8003.jpeg?v=2026-06-10T20%3A01%3A53.958Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8003.jpeg?v=2026-06-10T20%3A01%3A53.958Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8003.jpeg?v=2026-06-10T20%3A01%3A53.958Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8003.jpeg?v=2026-06-10T20%3A01%3A53.958Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
+						</Box>
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="x 0px 0px 0px"
+						>
+							"Free"
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2" />
+					<Override slot="Cell 0th" margin="0px 0px 0px 0px" />
+					<Override slot="Cell 0" margin="0px 0px 0px -45px" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="long sitting 2">
+				<Override slot="Content">
+					<Override slot="cell-0">
+						<Box min-width="100px" min-height="100px">
+							<Image
+								src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7997.jpeg?v=2026-06-10T20:01:53.966Z"
+								display="block"
+								width="620px"
+								srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7997.jpeg?v=2026-06-10T20%3A01%3A53.966Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7997.jpeg?v=2026-06-10T20%3A01%3A53.966Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7997.jpeg?v=2026-06-10T20%3A01%3A53.966Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7997.jpeg?v=2026-06-10T20%3A01%3A53.966Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7997.jpeg?v=2026-06-10T20%3A01%3A53.966Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7997.jpeg?v=2026-06-10T20%3A01%3A53.966Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7997.jpeg?v=2026-06-10T20%3A01%3A53.966Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
+							<Text
+								margin="0px 0px 0px 0px"
+								border-color="#000000"
+								color="#ffffff"
+								font="28px sans-serif"
+								white-space="nowrap"
+								padding="x 0px 0px 0px"
+							>
+								"Nude Beach"
+								<br />
+								Size: 11 x 9 in
+								<br />
+								Date: 2026
+							</Text>
+						</Box>
+					</Override>
+					<Override slot="cell-1">
+						<Box min-width="100px" min-height="100px">
+							<Image
+								src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7999.jpeg?v=2026-06-10T20:01:53.945Z"
+								display="block"
+								width="620px"
+								margin="px 0px 0px px"
+								height="475px"
+								srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7999.jpeg?v=2026-06-10T20%3A01%3A53.945Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7999.jpeg?v=2026-06-10T20%3A01%3A53.945Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7999.jpeg?v=2026-06-10T20%3A01%3A53.945Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7999.jpeg?v=2026-06-10T20%3A01%3A53.945Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7999.jpeg?v=2026-06-10T20%3A01%3A53.945Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7999.jpeg?v=2026-06-10T20%3A01%3A53.945Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7999.jpeg?v=2026-06-10T20%3A01%3A53.945Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
+						</Box>
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="x 0px 0px 0px"
+						>
+							"lounge"
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2" />
+					<Override slot="Cell 0th" margin="0px 0px 0px 0px" />
+					<Override slot="Cell 0" margin="0px 0px 0px -45px" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="long sitting 3">
+				<Override slot="Content">
+					<Override slot="cell-0">
+						<Box min-width="100px" min-height="100px">
+							<Image
+								src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7994.jpeg?v=2026-06-10T20:01:54.000Z"
+								display="block"
+								width="620px"
+								height="443px"
+								srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7994.jpeg?v=2026-06-10T20%3A01%3A54.000Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7994.jpeg?v=2026-06-10T20%3A01%3A54.000Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7994.jpeg?v=2026-06-10T20%3A01%3A54.000Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7994.jpeg?v=2026-06-10T20%3A01%3A54.000Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7994.jpeg?v=2026-06-10T20%3A01%3A54.000Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7994.jpeg?v=2026-06-10T20%3A01%3A54.000Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7994.jpeg?v=2026-06-10T20%3A01%3A54.000Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
+							<Text
+								margin="0px 0px 0px 0px"
+								border-color="#000000"
+								color="#ffffff"
+								font="28px sans-serif"
+								white-space="nowrap"
+								padding="x 0px 0px 0px"
+							>
+								"Disagreement"{" "}
+								<br />
+								Size: 11 x 9 in
+								<br />
+								Date: 2026
+							</Text>
+						</Box>
+					</Override>
+					<Override slot="cell-1">
+						<Box min-width="100px" min-height="100px" height="443px">
+							<Image
+								src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7985.jpeg?v=2026-06-10T19:25:57.549Z"
+								display="block"
+								width="610px"
+								margin="px 0px 0px px"
+								srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7985.jpeg?v=2026-06-10T19%3A25%3A57.549Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7985.jpeg?v=2026-06-10T19%3A25%3A57.549Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7985.jpeg?v=2026-06-10T19%3A25%3A57.549Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7985.jpeg?v=2026-06-10T19%3A25%3A57.549Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7985.jpeg?v=2026-06-10T19%3A25%3A57.549Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7985.jpeg?v=2026-06-10T19%3A25%3A57.549Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7985.jpeg?v=2026-06-10T19%3A25%3A57.549Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
+						</Box>
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="x 0px 0px 0px"
+						>
 							"Untittled{" "}
 							<br />
 							Size: 11 x 9 in
@@ -782,6 +1153,9 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="cell-2" />
+					<Override slot="Cell 0th" margin="0px 0px 0px 0px" />
+					<Override slot="Cell 0" margin="0px 0px 0px -45px" />
 				</Override>
 			</Structure>
 		</Section>

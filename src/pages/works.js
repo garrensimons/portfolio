@@ -245,8 +245,9 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
-					<Override slot="Cell 0" width="500px" />
+					<Override slot="Cell 0" width="500px" margin="0px 0px 0px -60px" />
 					<Override slot="Cell 1" width="500px" />
+					<Override slot="Cell 0th" margin="0px 0px 0px -px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="3" quarkly-title="Armadillo">
@@ -285,6 +286,7 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" margin="0px 0px 0px -25px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="3" quarkly-title="Icon head">
@@ -324,6 +326,7 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" margin="0px 0px 0px -20px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="3" quarkly-title="Cup">
@@ -365,6 +368,7 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" margin="0px 0px 0px -20px" />
 				</Override>
 			</Structure>
 		</Section>
@@ -758,7 +762,7 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
-					<Override slot="Cell 0" position="static" />
+					<Override slot="Cell 0" position="static" margin="0px 0px 0px -30px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="3" quarkly-title="sit">
@@ -812,6 +816,7 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" margin="0px 0px 0px -30px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="3" quarkly-title="lay">
@@ -865,6 +870,7 @@ export default (() => {
 							Date: 2026
 						</Text>
 					</Override>
+					<Override slot="Cell 0" margin="0px 0px 0px -30px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="3" quarkly-title="stand">
@@ -919,6 +925,7 @@ export default (() => {
 						</Text>
 					</Override>
 					<Override slot="Cell 2" margin="0px 0px 0px -10px" />
+					<Override slot="Cell 0" margin="0px 0px 0px -30px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="2" quarkly-title="long standing">
@@ -977,7 +984,7 @@ export default (() => {
 					</Override>
 					<Override slot="cell-2" />
 					<Override slot="Cell 0th" margin="0px 0px 0px 0px" />
-					<Override slot="Cell 0" margin="0px 0px 0px -45px" />
+					<Override slot="Cell 0" margin="0px 0px 0px -50px" />
 					<Override slot="Cell 1" />
 				</Override>
 			</Structure>
@@ -1037,7 +1044,7 @@ export default (() => {
 					</Override>
 					<Override slot="cell-2" />
 					<Override slot="Cell 0th" margin="0px 0px 0px 0px" />
-					<Override slot="Cell 0" margin="0px 0px 0px -45px" />
+					<Override slot="Cell 0" margin="0px 0px 0px -50px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="2" quarkly-title="long sitting 2">
@@ -1096,7 +1103,7 @@ export default (() => {
 					</Override>
 					<Override slot="cell-2" />
 					<Override slot="Cell 0th" margin="0px 0px 0px 0px" />
-					<Override slot="Cell 0" margin="0px 0px 0px -45px" />
+					<Override slot="Cell 0" margin="0px 0px 0px -50px" />
 				</Override>
 			</Structure>
 			<Structure cells-number-total="2" quarkly-title="long sitting 3">
@@ -1146,7 +1153,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="x 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Intamate"{" "}
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -1155,7 +1162,7 @@ export default (() => {
 					</Override>
 					<Override slot="cell-2" />
 					<Override slot="Cell 0th" margin="0px 0px 0px 0px" />
-					<Override slot="Cell 0" margin="0px 0px 0px -45px" />
+					<Override slot="Cell 0" margin="0px 0px 0px -55px" />
 				</Override>
 			</Structure>
 		</Section>

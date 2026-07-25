@@ -4,19 +4,24 @@ import { createGlobalStyle } from "styled-components";
 
 const pageStyles = {
     "404": {
-        "background": "--color-dark"
+        "background": "--color-dark",
+        "font": "16px sans-serif"
     },
     "index": {
-        "background": "--color-dark"
+        "background": "--color-dark",
+        "font": "16px sans-serif"
     },
     "artist-statement": {
-        "background": "--color-dark"
+        "background": "--color-dark",
+        "font": "16px sans-serif"
     },
     "works": {
-        "background": "--color-dark"
+        "background": "--color-dark",
+        "font": "16px sans-serif"
     },
     "about": {
-        "background": "--color-dark"
+        "background": "--color-dark",
+        "font": "16px sans-serif"
     }
 };
 

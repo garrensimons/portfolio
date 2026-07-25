@@ -42,7 +42,8 @@ export default {
 	"projectType": "gatsby",
 	"site": {
 		"styles": {
-			"background": "--color-dark"
+			"background": "--color-dark",
+			"font": "16px sans-serif"
 		},
 		"seo": {
 			"title": "Garren Simons — Artist.",

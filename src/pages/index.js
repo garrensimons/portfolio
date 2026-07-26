@@ -29,17 +29,20 @@ export default (() => {
 		<Section padding="5vw 0 5vw 0">
 			<Override slot="SectionContent" margin="0px 6vw 0px 6vw" />
 			<Box
-				empty-min-width="64px"
 				empty-border-style="solid"
 				empty-border-color="LightGray"
 				display="flex"
-				width="100%"
+				width="35%"
+				sm-justify-content="flex-start"
+				empty-min-width="64px"
 				empty-min-height="64px"
 				empty-border-width="1px"
-				justify-content="center"
 				sm-width="100%"
-				sm-justify-content="flex-start"
 				sm-padding="0px 0px 16px 0px"
+				justify-content="space-between"
+				margin="0px 0px 0px 16vw"
+				align-items="center"
+				flex-direction="row"
 			>
 				<Text color="--light" font="normal 600 2.5vw/1.5 --fontFamily-googleInter" white-space="nowrap" text-align="left">
 					Contemporary artist based in Murfreesboro, Tn
@@ -62,7 +65,7 @@ export default (() => {
 				flex-direction="row"
 			>
 				<Text color="--light" font="normal 600 1.7vw/1.5 --fontFamily-googleInter" white-space="nowrap" text-align="left">
-					{"                   "}Contact:
+					{"                     "}Contact:
 					<br />
 					Phone Number: (615) 934-1577
 					<br />

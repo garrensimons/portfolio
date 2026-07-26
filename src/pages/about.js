@@ -25,7 +25,7 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#04080C"} />
 		</Helmet>
 		<Components.RelativeHeader top={0} />
-		<Section margin="150px 0 0 0">
+		<Section margin="10vw 0 0 0">
 			<Text margin="1vw 0px 0px 0px" color="#ffffff" font="20px sans-serif">
 				Garren Simons is an undergraduate at Middle Tennessee State University working towards her BFA in studio arts. She has lived in Nashville for basically all her life, But currently resides in Murfreesboro for school. Garren's focus of study is ceramic sculptures and watercolor.
 				<br />

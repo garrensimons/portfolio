@@ -87,7 +87,7 @@ export default (() => {
 					Sculptures
 				</Text>
 			</Box>
-			<Structure cells-number-total="3" quarkly-title="Us bust">
+			<Structure cells-number-total="3" quarkly-title="Us bust" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" margin="0px auto 0px .1vw">
 					<Override slot="cell-0">
 						<Image
@@ -136,7 +136,7 @@ export default (() => {
 					/>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="3" quarkly-title="ARMADILLO 2">
+			<Structure cells-number-total="3" quarkly-title="ARMADILLO 2" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" margin="0px auto 0px .1vw">
 					<Override slot="cell-0">
 						<Image
@@ -165,7 +165,7 @@ export default (() => {
 							white-space="nowrap"
 							margin="4vw 0px 4vw 0px"
 						>
-							"Us"
+							"Armadillo"
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -185,7 +185,7 @@ export default (() => {
 					/>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="3" quarkly-title="Icon Head 2">
+			<Structure cells-number-total="3" quarkly-title="Icon Head 2" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" margin="0px auto 0px .1vw">
 					<Override slot="cell-0">
 						<Image
@@ -214,7 +214,7 @@ export default (() => {
 							white-space="nowrap"
 							margin="4vw 0px 4vw 0px"
 						>
-							"Us"
+							"Icon"
 							<br />
 							Size: 11 x 9 in
 							<br />
@@ -234,7 +234,7 @@ export default (() => {
 					/>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="3" quarkly-title="Cup">
+			<Structure cells-number-total="3" quarkly-title="Cup" padding="1vw 0px 1vw 0px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
@@ -281,14 +281,14 @@ export default (() => {
 				<Text
 					margin="0px 0px 0px 0px"
 					color="#ffffff"
-					font="9vw sans-serif"
+					font="6vw sans-serif"
 					padding="0px 0px 0px 25vw"
 					sm-font="30vw"
 				>
 					Traditional
 				</Text>
 			</Box>
-			<Structure cells-number-total="2" quarkly-title="No choice" margin="0px 0px 0px 1vw">
+			<Structure cells-number-total="2" quarkly-title="No choice" margin="0px 0px 0px 1vw" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" sm-margin="0px 18.625px 0px 0.1vw" margin="0px 57.6042px 0px 0.1vw">
 					<Override slot="cell-0">
 						<Image
@@ -334,7 +334,7 @@ export default (() => {
 					<Override slot="Cell 0" sm-width="70vw" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="Alien" margin="0px 0px 0px 1vw">
+			<Structure cells-number-total="2" quarkly-title="Alien" margin="0px 0px 0px 1vw" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" sm-margin="0px 18.625px 0px 0.1vw" margin="0px 57.6042px 0px 0.1vw">
 					<Override slot="cell-0">
 						<Image
@@ -380,7 +380,7 @@ export default (() => {
 					<Override slot="Cell 0" sm-width="70vw" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="&quot;Eat The ____!&quot;" margin="0px 0px 0px 1vw">
+			<Structure cells-number-total="2" quarkly-title="&quot;Eat The ____!&quot;" margin="0px 0px 0px 1vw" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
 					<Override slot="cell-0">
 						<Image
@@ -425,7 +425,7 @@ export default (() => {
 					<Override slot="Cell 0" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="Verdaccio" margin="0px 0px 0px 1vw">
+			<Structure cells-number-total="2" quarkly-title="Verdaccio" margin="0px 0px 0px 1vw" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
 					<Override slot="cell-0">
 						<Image
@@ -469,7 +469,7 @@ export default (() => {
 					</Override>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="responsibility" margin="0px 0px 0px 1vw" padding="0 0px 0 0px">
+			<Structure cells-number-total="2" quarkly-title="responsibility" margin="0px 0px 0px 1vw" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" sm-height="77vw" height="77vw" margin="0px 57.6042px 0px 0.1vw">
 					<Override slot="cell-0">
 						<Image
@@ -515,7 +515,7 @@ export default (() => {
 					<Override slot="Cell 0th" height="750px" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="still life" margin="0px 0px 0px 1vw" padding="2vw 0px 2vw 0px">
+			<Structure cells-number-total="2" quarkly-title="still life" margin="0px 0px 0px 1vw" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
 					<Override slot="cell-0">
 						<Image
@@ -663,7 +663,7 @@ export default (() => {
 					Figure Studies
 				</Text>
 			</Box>
-			<Structure cells-number-total="3" quarkly-title="stare &quot;2&quot;">
+			<Structure cells-number-total="3" quarkly-title="stare &quot;2&quot;" padding="0 0px 1vw 0px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
@@ -719,7 +719,7 @@ export default (() => {
 					<Override slot="Cell 2" sm-margin="0px 0px 0px -2.5vw" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="3" quarkly-title="sit &quot;2&quot;">
+			<Structure cells-number-total="3" quarkly-title="sit &quot;2&quot;" padding="1vw 0px 1vw 0px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
@@ -775,7 +775,7 @@ export default (() => {
 					<Override slot="Cell 2" sm-margin="0px 0px 0px -2.5vw" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="3" quarkly-title="lay &quot;2&quot;">
+			<Structure cells-number-total="3" quarkly-title="lay &quot;2&quot;" padding="1vw 0px 1vw 0px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
@@ -831,7 +831,7 @@ export default (() => {
 					<Override slot="Cell 2" sm-margin="0px 0px 0px -2.5vw" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="3" quarkly-title="stand &quot;2&quot;">
+			<Structure cells-number-total="3" quarkly-title="stand &quot;2&quot;" padding="1vw 0px 1vw 0px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Image
@@ -887,7 +887,7 @@ export default (() => {
 					<Override slot="Cell 2" sm-margin="0px 0px 0px -2.5vw" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="Long standing">
+			<Structure cells-number-total="2" quarkly-title="Long standing" padding="1vw 0px 1vw 0px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Box min-width="100px" min-height="100px">
@@ -952,7 +952,7 @@ export default (() => {
 					/>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="Long sitting">
+			<Structure cells-number-total="2" quarkly-title="Long sitting" padding="1vw 0px 1vw 0px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Box min-width="100px" min-height="100px">
@@ -1017,7 +1017,7 @@ export default (() => {
 					/>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="Long sitting &quot;2&quot;">
+			<Structure cells-number-total="2" quarkly-title="Long sitting &quot;2&quot;" padding="1vw 0px 1vw 0px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Box min-width="100px" min-height="100px">
@@ -1082,7 +1082,7 @@ export default (() => {
 					/>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="Long sitting &quot;3&quot;">
+			<Structure cells-number-total="2" quarkly-title="Long sitting &quot;3&quot;" padding="1vw 0px 1vw 0px">
 				<Override slot="Content">
 					<Override slot="cell-0">
 						<Box min-width="100px" min-height="100px">

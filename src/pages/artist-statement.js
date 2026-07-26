@@ -26,7 +26,7 @@ export default (() => {
 		</Helmet>
 		<Components.RelativeHeader top={0} />
 		<Section margin="10vw 0 0 0">
-			<Text margin="2vw 0px 0px 0px" color="#ffffff" font="1.7vw undefined">
+			<Text margin="3vw 0px 0px 0px" color="#ffffff" font="20px undefined">
 				I hand sculpt figures and forms that connect to my identity and self expression. As a young queer woman, I feel powerful creating work that reflect me and people like me. I find working with my hands in a sculptural form feels more intimate, and makes the audience want to get up and circle the form looking at the glaze detail or the shape. I draw in attention from anyone of all different ways of life and show the beauty of queerness through the figures.
 				<br />
 				<br />

@@ -285,14 +285,8 @@ export default (() => {
 			</Structure>
 		</Section>
 		<Section quarkly-title="Traditional" id="traditional" margin="10vw 0 0 0">
-			<Box min-width="100px" min-height="100px" margin="15vw 0px 0px 0px">
-				<Text
-					margin="0px 0px 0px 0px"
-					color="#ffffff"
-					font="6vw sans-serif"
-					padding="0px 0px 0px 25vw"
-					sm-font="30vw"
-				>
+			<Box min-width="100px" min-height="15vw" margin="15vw 0px 0px 0px">
+				<Text color="#ffffff" font="6vw sans-serif" text-align="center" margin="5vw 0px 16px 0px">
 					Traditional
 				</Text>
 			</Box>
@@ -666,14 +660,8 @@ export default (() => {
 			</Structure>
 		</Section>
 		<Section quarkly-title="Figure studies" id="figure" margin="15vw 0 0 0">
-			<Box min-width="100px" min-height="100px" margin="7vw 0px 0px 0px">
-				<Text
-					margin="0px 0px 0px 0px"
-					color="#ffffff"
-					font="6vw sans-serif"
-					padding="0px 0px 0px 24vw"
-					md-padding="0px 0px 0px 20vw"
-				>
+			<Box min-width="100px" min-height="15vw" margin="15vw 0px 0px 0px">
+				<Text color="#ffffff" font="6vw sans-serif" text-align="center" margin="5vw 0px 16px 0px">
 					Figure Studies
 				</Text>
 			</Box>

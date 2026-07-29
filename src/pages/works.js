@@ -118,7 +118,9 @@ export default (() => {
 						>
 							"Us"
 							<br />
-							Size: 11 x 9 in
+							Size:{" "}
+							<br />
+							8" x 7" x 13 1/2"
 							<br />
 							Date: 2026
 						</Text>
@@ -167,7 +169,9 @@ export default (() => {
 						>
 							"Armadillo"
 							<br />
-							Size: 11 x 9 in
+							Size:{" "}
+							<br />
+							5" x 6" x 6"
 							<br />
 							Date: 2026
 						</Text>
@@ -216,7 +220,9 @@ export default (() => {
 						>
 							"Icon"
 							<br />
-							Size: 11 x 9 in
+							Size:{" "}
+							<br />
+							8" x 7 1/2" x 11"
 							<br />
 							Date: 2026
 						</Text>
@@ -266,7 +272,9 @@ export default (() => {
 						>
 							"Stable"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size:
+							<br />
+							10" x 4 1/2" x 6"
 							<br />
 							Date: 2026
 						</Text>
@@ -310,7 +318,9 @@ export default (() => {
 						>
 							"No Choice"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 8" x 11 1/4"
+							<br />
+							(artwork)
 							<br />
 							Date: 2026
 						</Text>
@@ -356,7 +366,7 @@ export default (() => {
 						>
 							"Alien"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 24" x 17 1/2"
 							<br />
 							Date: 2026
 						</Text>
@@ -401,7 +411,9 @@ export default (() => {
 						>
 							"Eat The ____!"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 11 1/4" x 8 1/2"
+							<br />
+							(artwork)
 							<br />
 							Date: 2026
 						</Text>
@@ -444,9 +456,11 @@ export default (() => {
 							font="2.5vw  sans-serif"
 							white-space="nowrap"
 						>
-							"Untittled{" "}
+							"Verdaccio"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 12" x 12"
+							<br />
+							(circular)
 							<br />
 							Date: 2026
 						</Text>
@@ -490,7 +504,7 @@ export default (() => {
 						>
 							"Responsibility"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 5" x 8" (artwork)
 							<br />
 							Date: 2026
 						</Text>
@@ -536,7 +550,7 @@ export default (() => {
 						>
 							"Still life"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 18" x 24"
 							<br />
 							Date: 2026
 						</Text>
@@ -581,7 +595,7 @@ export default (() => {
 						>
 							"Dreamer"
 							<br />
-							Size: 11 x 9 in
+							Size: 22" x 30"
 							<br />
 							Date: 2026
 						</Text>
@@ -626,7 +640,7 @@ export default (() => {
 						>
 							"Seafood boil"
 							<br />
-							Size: 11 x 9 in
+							Size: 18" x 22"
 							<br />
 							Date: 2026
 						</Text>
@@ -695,7 +709,7 @@ export default (() => {
 						>
 							"Lethargy"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 18" x 24"
 							<br />
 							Date: 2026
 						</Text>
@@ -709,7 +723,9 @@ export default (() => {
 						>
 							"Dread"
 							<br />
-							Size: 11 x 9 in
+							Size:
+							<br />
+							18" x 23 1/2"
 							<br />
 							Date: 2026
 						</Text>
@@ -751,7 +767,7 @@ export default (() => {
 						>
 							"Poised"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 18" x 24"
 							<br />
 							Date: 2026
 						</Text>
@@ -765,7 +781,7 @@ export default (() => {
 						>
 							"Controlled"
 							<br />
-							Size: 11 x 9 in
+							Size: 18" x 24"{" "}
 							<br />
 							Date: 2026
 						</Text>
@@ -807,7 +823,7 @@ export default (() => {
 						>
 							"Mid day nap"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 18" x 24"
 							<br />
 							Date: 2026
 						</Text>
@@ -821,7 +837,7 @@ export default (() => {
 						>
 							"Drifter"
 							<br />
-							Size: 11 x 9 in
+							Size: 18" x 24"
 							<br />
 							Date: 2026
 						</Text>
@@ -863,7 +879,7 @@ export default (() => {
 						>
 							"Stable"{" "}
 							<br />
-							Size: 11 x 9 in
+							Size: 18" x 24"
 							<br />
 							Date: 2026
 						</Text>
@@ -877,7 +893,7 @@ export default (() => {
 						>
 							"In thought"
 							<br />
-							Size: 11 x 9 in
+							Size: 18" x 24"
 							<br />
 							Date: 2026
 						</Text>
@@ -907,7 +923,7 @@ export default (() => {
 							>
 								"Society"
 								<br />
-								Size: 11 x 9 in
+								Size: 24" x 18"
 								<br />
 								Date: 2026
 							</Text>
@@ -932,7 +948,7 @@ export default (() => {
 							>
 								"Lookout"
 								<br />
-								Size: 11 x 9 in
+								Size: 24" x 18"
 								<br />
 								Date: 2026
 							</Text>
@@ -972,7 +988,7 @@ export default (() => {
 							>
 								"Relaxed"
 								<br />
-								Size: 11 x 9 in
+								Size: 24" x 18"
 								<br />
 								Date: 2026
 							</Text>
@@ -997,7 +1013,7 @@ export default (() => {
 							>
 								"Free"
 								<br />
-								Size: 11 x 9 in
+								Size: 24" x 18"
 								<br />
 								Date: 2026
 							</Text>
@@ -1037,7 +1053,7 @@ export default (() => {
 							>
 								"Nude Beach"
 								<br />
-								Size: 11 x 9 in
+								Size: 24" x 18"
 								<br />
 								Date: 2026
 							</Text>
@@ -1062,7 +1078,7 @@ export default (() => {
 							>
 								"Lounge"
 								<br />
-								Size: 11 x 9 in
+								Size: 24" x 18"
 								<br />
 								Date: 2026
 							</Text>
@@ -1102,7 +1118,7 @@ export default (() => {
 							>
 								"Disagreement"
 								<br />
-								Size: 11 x 9 in
+								Size: 24" x 18"
 								<br />
 								Date: 2026
 							</Text>
@@ -1127,7 +1143,7 @@ export default (() => {
 							>
 								"Intamate"
 								<br />
-								Size: 11 x 9 in
+								Size: 24" x 18"
 								<br />
 								Date: 2026
 							</Text>

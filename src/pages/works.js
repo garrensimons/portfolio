@@ -477,8 +477,8 @@ export default (() => {
 					</Override>
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="responsibility" margin="0px 0px 0px 1vw" padding="1vw 0px 1vw 0px">
-				<Override slot="Content" sm-height="77vw" height="77vw" margin="0px 57.6042px 0px 0.1vw">
+			<Structure cells-number-total="2" quarkly-title="responsibility" margin="0px 0px 0px 0" padding="1vw 0px 1vw 0px">
+				<Override slot="Content" sm-height="77vw" height="77vw" margin="0px 57.6042px 0px 0">
 					<Override slot="cell-0">
 						<Image
 							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_7642%20%282%29.jpeg?v=2026-06-10T19:25:57.548Z"
@@ -523,7 +523,7 @@ export default (() => {
 					<Override slot="Cell 0th" height="750px" />
 				</Override>
 			</Structure>
-			<Structure cells-number-total="2" quarkly-title="still life" margin="0px 0px 0px 1vw" padding="1vw 0px 1vw 0px">
+			<Structure cells-number-total="2" quarkly-title="still life" margin="0px 0px 0px 0" padding="1vw 0px 1vw 0px">
 				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
 					<Override slot="cell-0">
 						<Image
@@ -633,6 +633,279 @@ export default (() => {
 							white-space="nowrap"
 						>
 							"Seafood boil"
+							<br />
+							Size: 18" x 22"
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Untittled{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="Cell 0" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="Home is a prison" padding="1vw 0px 1vw 0px" margin="0px 0px 0px 0">
+				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
+					<Override slot="cell-0">
+						<Image
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8410.jpeg?v=2026-11-14T21:15:15.090Z"
+							display="block"
+							margin="0px 0px 0px 0"
+							width="70vw"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8410.jpeg?v=2026-11-14T21%3A15%3A15.090Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8410.jpeg?v=2026-11-14T21%3A15%3A15.090Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8410.jpeg?v=2026-11-14T21%3A15%3A15.090Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8410.jpeg?v=2026-11-14T21%3A15%3A15.090Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8410.jpeg?v=2026-11-14T21%3A15%3A15.090Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8410.jpeg?v=2026-11-14T21%3A15%3A15.090Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8410.jpeg?v=2026-11-14T21%3A15%3A15.090Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Text
+							margin="30vw 0px 20vw 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="2.5vw  sans-serif"
+							white-space="nowrap"
+						>
+							"Home is a Prison"
+							<br />
+							Size: "
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Untittled{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="Cell 0" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="Death Series" padding="1vw 0px 1vw 0px">
+				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
+					<Override slot="cell-0">
+						<Image
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8475.jpeg?v=2026-11-14T21:15:30.586Z"
+							display="block"
+							height="70vw"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8475.jpeg?v=2026-11-14T21%3A15%3A30.586Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8475.jpeg?v=2026-11-14T21%3A15%3A30.586Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8475.jpeg?v=2026-11-14T21%3A15%3A30.586Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8475.jpeg?v=2026-11-14T21%3A15%3A30.586Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8475.jpeg?v=2026-11-14T21%3A15%3A30.586Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8475.jpeg?v=2026-11-14T21%3A15%3A30.586Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8475.jpeg?v=2026-11-14T21%3A15%3A30.586Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Text
+							margin="30vw 0px 30vw 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="2.5vw  sans-serif"
+							white-space="nowrap"
+						>
+							"Guider"
+							<br />
+							Size: "
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Untittled{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="Cell 0" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="Death Series" padding="1vw 0px 1vw 0px">
+				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
+					<Override slot="cell-0">
+						<Image
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8476.jpeg?v=2026-11-14T21:15:30.404Z"
+							display="block"
+							height="70vw"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8476.jpeg?v=2026-11-14T21%3A15%3A30.404Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8476.jpeg?v=2026-11-14T21%3A15%3A30.404Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8476.jpeg?v=2026-11-14T21%3A15%3A30.404Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8476.jpeg?v=2026-11-14T21%3A15%3A30.404Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8476.jpeg?v=2026-11-14T21%3A15%3A30.404Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8476.jpeg?v=2026-11-14T21%3A15%3A30.404Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8476.jpeg?v=2026-11-14T21%3A15%3A30.404Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Text
+							margin="30vw 0px 30vw 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="2.5vw  sans-serif"
+							white-space="nowrap"
+						>
+							"Snuffed"
+							<br />
+							Size: "
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Untittled{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="Cell 0" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="Animal Zebra" padding="1vw 0px 1vw 0px">
+				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
+					<Override slot="cell-0">
+						<Image
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8672%20%281%29.jpeg?v=2026-11-14T21:15:39.155Z"
+							display="block"
+							width="70vw"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8672%20%281%29.jpeg?v=2026-11-14T21%3A15%3A39.155Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8672%20%281%29.jpeg?v=2026-11-14T21%3A15%3A39.155Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8672%20%281%29.jpeg?v=2026-11-14T21%3A15%3A39.155Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8672%20%281%29.jpeg?v=2026-11-14T21%3A15%3A39.155Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8672%20%281%29.jpeg?v=2026-11-14T21%3A15%3A39.155Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8672%20%281%29.jpeg?v=2026-11-14T21%3A15%3A39.155Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8672%20%281%29.jpeg?v=2026-11-14T21%3A15%3A39.155Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Text
+							margin="30vw 0px 10vw 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="2.5vw  sans-serif"
+							white-space="nowrap"
+						>
+							"Chasing Freedom"
+							<br />
+							Size: 18" x 22"
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Untittled{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="Cell 0" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="Animal Snake" padding="1vw 0px 1vw 0px">
+				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
+					<Override slot="cell-0">
+						<Image
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8671%20%281%29.jpeg?v=2026-11-14T21:15:29.971Z"
+							display="block"
+							width="70vw"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8671%20%281%29.jpeg?v=2026-11-14T21%3A15%3A29.971Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8671%20%281%29.jpeg?v=2026-11-14T21%3A15%3A29.971Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8671%20%281%29.jpeg?v=2026-11-14T21%3A15%3A29.971Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8671%20%281%29.jpeg?v=2026-11-14T21%3A15%3A29.971Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8671%20%281%29.jpeg?v=2026-11-14T21%3A15%3A29.971Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8671%20%281%29.jpeg?v=2026-11-14T21%3A15%3A29.971Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8671%20%281%29.jpeg?v=2026-11-14T21%3A15%3A29.971Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Text
+							margin="30vw 0px 10vw 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="2.5vw  sans-serif"
+							white-space="nowrap"
+						>
+							"Green is where I{" "}
+							<br />
+							want to be"
+							<br />
+							Size: 18" x 22"
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="cell-2">
+						<Text
+							margin="0px 0px 0px 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="28px sans-serif"
+							white-space="nowrap"
+							padding="250px 0px 0px 0px"
+						>
+							"Untittled{" "}
+							<br />
+							Size: 11 x 9 in
+							<br />
+							Date: 2026
+						</Text>
+					</Override>
+					<Override slot="Cell 0" />
+				</Override>
+			</Structure>
+			<Structure cells-number-total="2" quarkly-title="Animal Bird" padding="1vw 0px 1vw 0px">
+				<Override slot="Content" margin="0px 57.6042px 0px 0.1vw">
+					<Override slot="cell-0">
+						<Image
+							src="https://uploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8673%20%281%29.jpeg?v=2026-11-14T21:15:46.948Z"
+							display="block"
+							height="70vw"
+							srcSet="https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8673%20%281%29.jpeg?v=2026-11-14T21%3A15%3A46.948Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8673%20%281%29.jpeg?v=2026-11-14T21%3A15%3A46.948Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8673%20%281%29.jpeg?v=2026-11-14T21%3A15%3A46.948Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8673%20%281%29.jpeg?v=2026-11-14T21%3A15%3A46.948Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8673%20%281%29.jpeg?v=2026-11-14T21%3A15%3A46.948Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8673%20%281%29.jpeg?v=2026-11-14T21%3A15%3A46.948Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/69891a2bd788530023e4412f/images/IMG_8673%20%281%29.jpeg?v=2026-11-14T21%3A15%3A46.948Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+						/>
+					</Override>
+					<Override slot="cell-1">
+						<Text
+							margin="30vw 0px 30vw 0px"
+							border-color="#000000"
+							color="#ffffff"
+							font="2.5vw  sans-serif"
+							white-space="nowrap"
+						>
+							"Murmuration and Isolation"
 							<br />
 							Size: 18" x 22"
 							<br />

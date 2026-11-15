@@ -28,7 +28,7 @@ export default (() => {
 		<Structure
 			align-self="auto"
 			flex-wrap="nowrap"
-			margin="13vw 0px 0px 0px"
+			margin="8vw 0px 0px 0px"
 			position="fixed"
 			quarkly-title="Nav"
 			sm-position="fixed"

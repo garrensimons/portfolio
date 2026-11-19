@@ -328,7 +328,7 @@ export default (() => {
 							white-space="nowrap"
 							padding="300px 0px 0px 0px"
 						>
-							"Untittled{" "}
+							"Untitled{" "}
 							<br />
 							Size: 11 x 9 in
 							<br />
